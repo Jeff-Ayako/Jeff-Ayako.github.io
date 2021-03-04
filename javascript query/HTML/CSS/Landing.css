@@ -50,6 +50,7 @@
     cursor: pointer;
     background-repeat: no-repeat;
     background-size: 30px;
+    background-position: center;
     filter: invert();
 }
 .toggle.active{
