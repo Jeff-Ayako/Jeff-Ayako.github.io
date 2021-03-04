@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camphor tanks landing page</title>
+    <link rel="stylesheet" href="CSS/Landing.css">
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Camphor tanks</h2>
+            <div class="toggle"></div>
+        </header>
+    <video src="circular tanks.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+        <h2>KANGAROO MOULDERS</h2>
+        <h3>water storage solution providers</h3>
+        <p>Water is life hence being water wise in terms of storage will ensure that reguardless of the session you will never ever run out of water,clean water a health family</p>
+        <a href="#">See more</a>
+    </div>
+    <ul class="social">
+        <li><a href="#"><img src="fb.png" alt=""></a></li>
+        <li><a href=""><img src="instagram.png" alt=""></a></li>
+        <!-- <li><a href=""><img src="email.png" alt=""></a></li> -->
+        <li><a href=""><img src="twitter.png" alt=""></a></li>
+        
+    </ul>
+
+    </section>
+    <div class="menu">
+        <ul>
+            <li><a href="HOME">home</a></li>
+            <li><a href="about">about</a></li>
+            <li><a href="vision">vision</a></li>
+            <li><a href="news">news</a></li>
+            <li><a href="contact">contact</a></li>
+           
+        </ul>
+    </div>
+  
+    
+    <script >
+    const menuToggle=document.querySelector('.toggle');
+    const showcase=document.querySelector('.showcase');
+
+        menuToggle.addEventListener('click',()=>{
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+            
+   
+    
+})
+   
+    </script>   
+</body>
+
+</html>
