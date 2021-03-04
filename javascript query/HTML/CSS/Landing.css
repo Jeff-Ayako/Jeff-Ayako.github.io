@@ -90,6 +90,18 @@
 .text{
     position: relative;
     z-index: 10;
+    animation-name: textanimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes textanimation{
+    0%{color:orange;};
+    50%{color:rgb(37, 7, 7);}
+    75%{color:royalblue}
+    100%{color:#fff};
+
+
 }
 .text h2{
     font-size: 5em;
@@ -128,6 +140,13 @@
     border-radius: 30px;
     justify-content: center;
     margin-top: 30px;
+    animation-name: btnanimation;
+    animation-duration: 2s;
+}
+@keyframes btnanimation{
+    0%{opacity:0;}
+    50%{opacity: 50%;}
+    100%{opacity: 100%;}
 }
 .text a:hover{
     letter-spacing: 6px;
