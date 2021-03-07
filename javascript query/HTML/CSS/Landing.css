@@ -210,12 +210,17 @@ menu ul li a{
 
 
 }
-@media(max-width:798px){
+@media(max-width:576px){
     .showcase,
     .showcase header{
-        padding: 40px;
+        padding: 0px;
+        max-height: 70vh;
+        margin-top: 0%;
 
 
+    }
+    .showcase .logo{
+        font-size:1em;
     }
     .text h2{
         font-size: 3em;
@@ -226,6 +231,16 @@ menu ul li a{
         font-size: 2em;
 
     }
+    .social{
+        bottom: 10px;
+    }
+    .text p{
+        max-width:576px;
+    }
+    .text a{
+        left:35%;
+    }
+
 
 
 
