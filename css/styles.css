@@ -10008,8 +10008,16 @@ hr.light {
   border: none;
   border-radius: 10rem;
   transition: .5s;
+  animation-name:txt-animation;
+  animation-duration:3s;
 
 }
+
+@keyframes txt-animation{
+  0%{opacity:0;}
+  100%{opacity:1;}
+}
+
 .btn-xl:hover{
   letter-spacing:3px;
   transform:scale(1.2) translateY(15px) ;
@@ -10101,6 +10109,14 @@ header.masthead {
 }
 header.masthead h1 {
   font-size: 2.25rem;
+  animation-name: myani;
+  animation-duration: 3s;
+}
+@keyframes myani{
+  0%{opacity:0;}
+  100%{opacity:1;}
+
+
 }
 @media (min-width: 576px) {
   header.masthead {
@@ -10160,4 +10176,12 @@ header.masthead h1 {
 
 .text-white-75 {
   color: rgba(255, 255, 255, 0.75);
+  animation-name:txt-animation;
+  animation-duration:3s;
+
+}
+@keyframes txt-animation{
+  0%{opacity:0;}
+  100%{opacity:1;}
+
 }
