@@ -10005,6 +10005,16 @@ hr.light {
   text-transform: uppercase;
   border: none;
   border-radius: 10rem;
+  transition: .5s;
+
+}
+.btn-xl:hover{
+  letter-spacing:3px;
+  transform:scale(1.2) translateY(15px) ;
+  background-color:lightblue;
+
+ 
+
 }
 
 .page-section {
@@ -10020,6 +10030,11 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #212529;
+  transition: .5s;
+}
+#mainNav .navbar-brand:hover{
+  color:aqua;
+  letter-spacing: 2px;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
