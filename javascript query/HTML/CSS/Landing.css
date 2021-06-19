@@ -73,6 +73,12 @@
     opacity: 0.8;
     background-position: center;
     align-items: center;
+    
+
+}
+.showcase video::after{
+    z-index: 1;
+    box-shadow: inset 500px 500px 500px #000000;
 
 
 }
@@ -125,8 +131,11 @@
     
 }
 .text a{
-    position: absolute;
+    position: relative;
     display: inline-block;
+    /* display: grid; */
+    /* right: 50%; */
+    /* transform:translate(50%,50%); */
     text-decoration:none;
     padding: 20px;
     color: #111;
@@ -236,9 +245,12 @@ menu ul li a{
     }
     .text p{
         max-width:576px;
+        /* padding: 40px,40px,40px,40px; */
+        margin: 0px,40px;
     }
     .text a{
-        left:35%;
+        left:50%;
+        transform: translate(-50%,-50%);
     }
 
 
